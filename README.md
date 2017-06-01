@@ -20,7 +20,7 @@ e.g.
 
 ### Cookbooks
 
-- `toaster` - mywebserver needs toaster to brown your bagel.
+- `toaster` - server needs toaster to brown your bagel.
 
 ## Attributes
 
@@ -57,7 +57,7 @@ Just include `servercookbook` in your node's `run_list`:
 {
   "name":"my_node",
   "run_list": [
-    "recipe[mywebserver]"
+    "recipe[servercookbook]"
   ]
 }
 ```
