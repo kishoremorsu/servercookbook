@@ -1,0 +1,1 @@
+default['servercookbook']['user'] = 'USER'
